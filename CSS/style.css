@@ -1,0 +1,93 @@
+/* Primeros selectores, de tipo etiqueta */
+
+
+body{
+    margin: 0px;
+}
+nav{background-color: aquamarine;
+
+}
+p{font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-family: cursive;
+}
+h1, h2 { color: blueviolet;
+}
+.p_size{font-size:  20px;
+}
+.Tamañito{color: crimson;
+
+}
+.textorder{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.navbar{
+display:flex;
+
+}
+nav ul li a{
+text-decoration: none;
+columns: white;
+font-size: 18px;
+
+}
+nav ul li{
+    margin-left: 20px;
+list-style:  none;
+
+}
+nav ul{
+    margin: 0px;
+}
+nav ul li a:hover{
+    color: red;
+    
+}
+.caja{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 15px;
+}
+.c1{background-color: red;}
+.c2{background-color: salmon;}
+.c3{background-color: sandybrown;}
+.c4{background-color: seagreen;}
+.c5{background-color: tomato;}
+.c6{background-color: yellow;}
+.c7{background-color: yellowgreen;}
+.c8{background-color: blue;}
+.c9{background-color: blueviolet;}
+.c10{background-color: aquamarine;}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width:600px){
+    .container{
+        flex-direction: column-reverse;
+    }
+
+}
+.papito{
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+border:  red solid;
+}
